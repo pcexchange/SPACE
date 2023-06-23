@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.sec-con{
+    padding:20px 50px 100px;
+    background-image: linear-gradient(to right,rgb(4, 4, 79),rgb(34, 152, 113));
+    height: fit-content;
+}
+.DEV{
+    color: rgb(162, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-item{
+    display: flex;
+    /* text-decoration: none; */
+    gap: 30px;
+    
+}
+.sec-item > a {
+    text-decoration: none;
+    color: rgb(189, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download{
+    color: rgb(228, 224, 224);
+    background-color: rgb(59, 197, 151);
+    border-radius: 25px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.design-con{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+.design-item > h1{
+    color: rgb(62, 151, 121);
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.design-item > p{
+    color: rgb(166, 162, 162);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+.project{
+    color: white;
+    background-color: rgb(5, 5, 121);
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(117, 103, 103, 0.66);
+}
+.three{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+}
+.trust-con{
+    background-color: rgba(171, 191, 246, 0.566);
+    padding-top: 50px;
+}
+.by{
+    
+    border-bottom: 1px solid rgb(136, 134, 134);
+    padding-bottom: 15px;
+    color: rgb(136, 134, 134);
+    width: fit-content;
+    margin: auto;
+    
+}
+.trust-item{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    /* gap: 60px; */
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.do-con{
+    padding-top: 50px;
+}
+.design{
+    display: flex;
+    /* text-align: center; */
+    width: fit-content;
+    margin: auto;
+    gap: 40px;
+}
+.desin-item{
+    text-align: center;
+    padding-top: 40px;
+}
+.str{
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.desin{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.learn{
+    text-decoration: none;
+    color: rgb(54, 54, 147);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.work-con{
+    background-color: rgb(8, 8, 151);
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.build{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+span{
+    color: aqua;
+}
+.work-item{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    gap: 30px;
+    padding-top: 40px;
+}
+.premium{
+    text-align: center;
+    border-bottom: 1px solid rgba(231, 229, 229, 0.712);
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500px;
+}
+.enterprise{
+    background-color: white;
+    width: 300px
+}
+.prem{
+    text-align: center;
+    padding: 20px;
+}
+.prise{
+    text-align: center;
+}
+.dollar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+.contact{
+    text-align: center;
+    padding: 15px;
+}
+.contact-item{
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.team-con{
+    background-color: rgba(227, 224, 224, 0.6);
+    padding-top: 30px;
+}
+.team-item{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    
+}
+.tea{
+    height: 200px;
+    width: 220px;
+}
+h5{
+    text-align: center;
+    color: rgb(125, 16, 227);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+.ops{
+    color: rgba(173, 170, 170, 0.735);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.source-con{
+    padding: 40px;
+}
+.builds{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px;
+}
+.follow{
+    text-align: center;
+}
+.low{
+    padding: 5px 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px solid rgb(229, 223, 223);
+    background-color: white;
+}
+footer{
+    background-color: rgb(8, 8, 151);
+    padding: 40px 50px;
+}
+.dev-con{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.con > h2 {
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.con > p {
+    padding: 5px;
+    color: rgb(202, 200, 200);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+/* MEDIA-QUERY COLUMN */
+@media screen and (max-width:768px) {
+    .sec-item{
+        display: none;
+    }
+    .design-con{
+        display: block;
+    }
+    .trust-item{
+        grid-template-columns: repeat(3,auto);
+    }
+    .design{
+        display: block;
+    }
+   
+    .three{
+        width: 300px;
+        height: 180px;
+    }
+    .sec-con{
+        height: 600px;
+        padding: 20px 20px;
+        
+        
+    }
+    .work-item{
+        display: block;
+        /* margin-bottom: 15px; */
+        width: fit-content;
+    }
+    .enterprise{
+        margin-bottom: 15px;
+    }
+    .team-item{
+        display: block;
+        width: fit-content;
+    }
+    .dev-con{
+        display: block;
+    }
+    .build{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width:425px)  {
+    .design-item > h1{
+        font-size: 20px;
+    }
+    
+}
+
+/* MEDIA-QUERY COLUMN */
