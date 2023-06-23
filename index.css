@@ -147,9 +147,10 @@ span{
 }
 .work-item{
     display: flex;
-    padding: 20px;
+    /* padding-left: 20px; */
+    justify-content: space-around;
     margin: auto;
-    gap: 30px;
+    
     padding-top: 40px;
 }
 .premium{
@@ -321,7 +322,20 @@ footer{
     .design-item > h1{
         font-size: 20px;
     }
+
     
+}
+
+@media screen and (max-width:320px) {
+    .trust-item{
+        grid-template-columns: repeat(4,auto);
+        font-size: 10px;
+    
+}
+.trust-item > h1 {
+    padding: 5px;
+    margin: auto;
+}
 }
 
 /* MEDIA-QUERY COLUMN */
