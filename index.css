@@ -328,8 +328,9 @@ footer{
 
 @media screen and (max-width:320px) {
     .trust-item{
-        grid-template-columns: repeat(4,auto);
+        grid-template-columns: repeat(3,auto);
         font-size: 10px;
+        justify-content: center;
     
 }
 .trust-item > h1 {
